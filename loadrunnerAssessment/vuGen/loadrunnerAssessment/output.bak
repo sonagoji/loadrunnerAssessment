@@ -1,0 +1,135 @@
+Virtual User Script started at: 10-12-2025 15:56:44
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\loadrunnerAssessment\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Register.
+Register.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Register.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Register.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Register.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Register.c(9): web_url("demowebshop.tricentis.com") started  	[MsgId: MMSG-26355]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/public.common.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000215.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000240.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000031_build-your-own-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000204_simple-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Register.c(9): web_url("demowebshop.tricentis.com") was successful, 675729 body bytes, 7613 header bytes  	[MsgId: MMSG-26386]
+Register.c(18): Notify: Transaction "registertrans" started.
+Register.c(20): web_link("Register") started  	[MsgId: MMSG-26355]
+Register.c(20): Linking to "https://demowebshop.tricentis.com/register", Target Frame=""  	[MsgId: MMSG-27994]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/public.common.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Register.c(20): web_link("Register") was successful, 5919 body bytes, 611 header bytes  	[MsgId: MMSG-26386]
+Register.c(25): web_submit_data("register") started  	[MsgId: MMSG-26355]
+Register.c(25): Notify: Parameter Substitution: parameter "fname" =  "sohavuu"
+Register.c(25): Notify: Parameter Substitution: parameter "lname" =  "sgha"
+Register.c(25): Notify: Parameter Substitution: parameter "gmail" =  "soonahavu@gmail.com"
+Register.c(25): Notify: Parameter Substitution: parameter "pass" =  "123456"
+Register.c(25): Notify: Parameter Substitution: parameter "cpass" =  "123456"
+Register.c(25): Redirecting "https://demowebshop.tricentis.com/register" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Register.c(25): To location "https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register"  	[MsgId: MMSG-26693]
+Register.c(25): web_submit_data("register") was successful, 847 body bytes, 693 header bytes  	[MsgId: MMSG-26386]
+Register.c(44): Notify: Transaction "registertrans" ended with a "Pass" status (Duration: 0.9093 Wasted Time: 0.0212).
+Ending action Register.
+Starting action Searching.
+Searching.c(4): Notify: Transaction "searchtrans" started.
+Searching.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Searching.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Searching.c(9): web_url("searchtermautocomplete") started  	[MsgId: MMSG-26355]
+Searching.c(9): web_url("searchtermautocomplete") was successful, 185 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Searching.c(18): web_url("search") started  	[MsgId: MMSG-26355]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/public.common.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Searching.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000133_fiction_125.jpeg" in HTML "https://demowebshop.tricentis.com/search?q=fiction"  	[MsgId: MMSG-26659]
+Searching.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000208_fiction-ex_125.jpeg" in HTML "https://demowebshop.tricentis.com/search?q=fiction"  	[MsgId: MMSG-26659]
+Searching.c(18): web_url("search") was successful, 13311 body bytes, 977 header bytes  	[MsgId: MMSG-26386]
+Searching.c(27): Notify: Transaction "searchtrans" ended with a "Pass" status (Duration: 1.0523 Wasted Time: 0.0268).
+Ending action Searching.
+Starting action AddToCart.
+AddToCart.c(4): Notify: Transaction "carttrans" started.
+AddToCart.c(6): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+AddToCart.c(6): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+AddToCart.c(9): lr_think_time: 20.00 seconds.
+AddToCart.c(11): web_custom_request("1") started  	[MsgId: MMSG-26355]
+AddToCart.c(11): web_custom_request("1") was successful, 765 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+AddToCart.c(22): Notify: Transaction "carttrans" ended with a "Pass" status (Duration: 20.6692 Think Time: 20.0025 Wasted Time: 0.0092).
+Ending action AddToCart.
+Starting action Logout.
+Logout.c(4): Notify: Transaction "logouttrans" started.
+Logout.c(6): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Logout.c(6): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Logout.c(9): web_url("logout") started  	[MsgId: MMSG-26355]
+Logout.c(9): Redirecting "https://demowebshop.tricentis.com/logout" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Logout.c(9): To location "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26693]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.common.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000133_fiction_47.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000215.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000240.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000031_build-your-own-computer_125.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000204_simple-computer_125.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("logout") was successful, 9176 body bytes, 1269 header bytes  	[MsgId: MMSG-26386]
+Logout.c(18): Notify: Transaction "logouttrans" ended with a "Pass" status (Duration: 1.3102 Wasted Time: 0.0127).
+Ending action Logout.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
