@@ -1,5 +1,0 @@
-[Diagnostics]
-Status=-1
-[Collate Recovery]
-Scenario=C:\Users\Administrator\Downloads\loadrunnerAssessment\controller\scenario\Scenario1.lrs
-Completed=0
