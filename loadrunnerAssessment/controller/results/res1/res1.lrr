@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\Users\Administrator\Downloads\loadrunnerAssessment\controller\scenario\Scenario1.lrs
+Subject=
+Result_file=C:\Users\Administrator\Downloads\loadrunnerAssessment\controller\results\res1\res1.lrr
+Description=
+ResultName=res1
+Time_Zone=-19800
+Start_time=1765364984
+Daylight_Bias=0
+Stop_time=1765365770
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:12 (HH:MM:SS); Run for 00:05:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:30 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10_1E12;R300;SP10_1E30;
+[Scripts]
+loadrunnerAssessment=C:\Users\Administrator\Documents\VuGen\Scripts\loadrunnerAssessment\loadrunnerAssessment.usr
+[Scripts_types]
+loadrunnerAssessment=Multi+QTWeb
