@@ -1,0 +1,152 @@
+[
+    {
+        "actionName": "Register",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t1.inf",
+                "time": 1765364592923
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Register",
+                "infFile": "t2.inf",
+                "time": 1765364593301
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: register",
+                "infFile": "t3.inf",
+                "time": 1765364601795
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "registertrans",
+                "rawStartTime": 1765364592926,
+                "rawEndTime": 1765364601799,
+                "thinkTime": 8.006628,
+                "wastedTime": 0.022163867950439454
+            }
+        ]
+    },
+    {
+        "actionName": "Searching",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: searchtermautocomplete",
+                "infFile": "t4.inf",
+                "time": 1765364608601
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: search",
+                "infFile": "t5.inf",
+                "time": 1765364611848
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "searchtrans",
+                "rawStartTime": 1765364601831,
+                "rawEndTime": 1765364611863,
+                "thinkTime": 6.007447,
+                "wastedTime": 0.023969650268554689
+            }
+        ]
+    },
+    {
+        "actionName": "AddToCart",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: 1",
+                "infFile": "t6.inf",
+                "time": 1765364632368
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "carttrans",
+                "rawStartTime": 1765364611896,
+                "rawEndTime": 1765364632377,
+                "thinkTime": 20.000673,
+                "wastedTime": 0.011227130889892578
+            }
+        ]
+    },
+    {
+        "actionName": "Logout",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: logout",
+                "infFile": "t7.inf",
+                "time": 1765364635919
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "logouttrans",
+                "rawStartTime": 1765364632409,
+                "rawEndTime": 1765364635933,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012745857238769532
+            }
+        ]
+    },
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t8.inf",
+                "time": 1765364636411
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Link: Log in",
+                "infFile": "t9.inf",
+                "time": 1765364636826
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: login",
+                "infFile": "t10.inf",
+                "time": 1765364637284
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "logintrans",
+                "rawStartTime": 1765364636420,
+                "rawEndTime": 1765364637285,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010780096054077149
+            }
+        ]
+    },
+    {
+        "actionName": "Logout2",
+        "steps": [
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: logout",
+                "infFile": "t11.inf",
+                "time": 1765364639530
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "logout2trans",
+                "rawStartTime": 1765364637318,
+                "rawEndTime": 1765364639534,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010438203811645508
+            }
+        ]
+    }
+]

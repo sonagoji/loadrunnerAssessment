@@ -1,0 +1,17 @@
+[t8]
+FileName1=t8.json
+URL1=https://demowebshop.tricentis.com/addproducttocart/catalog/45/1/1
+Total=4
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_ico-close-notification-bar.png
+URL2=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ico-close-notification-bar.png
+FileName3=t8_0000133_fiction_47.jpg
+URL3=https://demowebshop.tricentis.com/content/images/thumbs/0000133_fiction_47.jpeg
+FileName4=t8_ajax_loader_large.gif
+URL4=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ajax_loader_large.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

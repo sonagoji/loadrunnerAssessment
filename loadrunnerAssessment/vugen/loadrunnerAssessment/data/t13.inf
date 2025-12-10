@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13.htm
+URL1=https://demowebshop.tricentis.com/
+Total=2
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_0000130_computing-and-internet_47.jpg
+URL2=https://demowebshop.tricentis.com/content/images/thumbs/0000130_computing-and-internet_47.jpeg
+[ProtocolInfo]
+ProtocolId=QTWeb
